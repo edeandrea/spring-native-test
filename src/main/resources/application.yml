@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: spring-native-test
+  jpa:
+    generate-ddl: true
+    show-sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+    info:
+      git:
+        mode: full
+
+logging:
+  level:
+    root: INFO
+    com.example.springnative: DEBUG
+
+server:
+  error:
+    include-stacktrace: always
+    include-exception: true
