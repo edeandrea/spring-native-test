@@ -84,6 +84,12 @@
     "allDeclaredClasses": true
   },
   {
+    "name": "com.example.springnative.domain.Todo$TodoBuilder",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredClasses": true
+  },
+  {
     "name": "com.example.springnative.repository.TodoRepository",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,

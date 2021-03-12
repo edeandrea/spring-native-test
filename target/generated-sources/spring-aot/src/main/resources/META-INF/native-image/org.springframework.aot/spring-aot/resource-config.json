@@ -59,6 +59,9 @@
         "pattern": "com/example/springnative/api/TodoAPI.class"
       },
       {
+        "pattern": "com/example/springnative/domain/Todo$TodoBuilder.class"
+      },
+      {
         "pattern": "com/example/springnative/domain/Todo.class"
       },
       {

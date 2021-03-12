@@ -63,10 +63,6 @@
     "org.springframework.core.annotation.SynthesizedAnnotation"
   ],
   [
-    "org.springframework.web.bind.annotation.ResponseStatus",
-    "org.springframework.core.annotation.SynthesizedAnnotation"
-  ],
-  [
     "org.springframework.data.jpa.repository.JpaRepository",
     "org.springframework.aop.SpringProxy",
     "org.springframework.aop.framework.Advised",
