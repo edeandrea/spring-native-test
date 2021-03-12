@@ -1,2 +1,6 @@
 #
-#Fri Mar 12 10:53:43 EST 2021
+#Fri Mar 12 13:44:33 EST 2021
+com.example.springnative.api.TodoAPI=org.springframework.stereotype.Component
+com.example.springnative.repository.TodoRepository=org.springframework.stereotype.Component,org.springframework.data.repository.Repository
+com.example.springnative.SpringNativeTestApplication=org.springframework.stereotype.Component
+com.example.springnative.domain.Todo=javax.persistence.Entity,javax.persistence.Table

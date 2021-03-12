@@ -53,6 +53,18 @@
         "pattern": "banner.txt"
       },
       {
+        "pattern": "com/example/springnative/SpringNativeTestApplication.class"
+      },
+      {
+        "pattern": "com/example/springnative/api/TodoAPI.class"
+      },
+      {
+        "pattern": "com/example/springnative/domain/Todo.class"
+      },
+      {
+        "pattern": "com/example/springnative/repository/TodoRepository.class"
+      },
+      {
         "pattern": "data.sql"
       },
       {
@@ -86,6 +98,15 @@
         "pattern": "java/util/EventObject.class"
       },
       {
+        "pattern": "java/util/UUID.class"
+      },
+      {
+        "pattern": "javax/persistence/Entity.class"
+      },
+      {
+        "pattern": "javax/persistence/Table.class"
+      },
+      {
         "pattern": "javax/sql/CommonDataSource.class"
       },
       {
@@ -107,6 +128,18 @@
         "pattern": "org/hibernate/.*.xsd"
       },
       {
+        "pattern": "org/hibernate/engine/spi/Managed.class"
+      },
+      {
+        "pattern": "org/hibernate/engine/spi/ManagedEntity.class"
+      },
+      {
+        "pattern": "org/hibernate/engine/spi/PersistentAttributeInterceptable.class"
+      },
+      {
+        "pattern": "org/hibernate/engine/spi/SelfDirtinessTracker.class"
+      },
+      {
         "pattern": "org/springframework/beans/factory/Aware.class"
       },
       {
@@ -126,6 +159,9 @@
       },
       {
         "pattern": "org/springframework/beans/factory/config/BeanFactoryPostProcessor.class"
+      },
+      {
+        "pattern": "org/springframework/boot/SpringBootConfiguration.class"
       },
       {
         "pattern": "org/springframework/boot/actuate/audit/listener/AbstractAuditListener.class"
@@ -426,6 +462,21 @@
       },
       {
         "pattern": "org/springframework/boot/autoconfigure/AbstractDependsOnBeanFactoryPostProcessor.class"
+      },
+      {
+        "pattern": "org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.class"
+      },
+      {
+        "pattern": "org/springframework/boot/autoconfigure/AutoConfigurationPackage.class"
+      },
+      {
+        "pattern": "org/springframework/boot/autoconfigure/AutoConfigurationPackages.Registrar.class"
+      },
+      {
+        "pattern": "org/springframework/boot/autoconfigure/EnableAutoConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/autoconfigure/SpringBootApplication.class"
       },
       {
         "pattern": "org/springframework/boot/autoconfigure/aop/AopAutoConfiguration.AspectJAutoProxyingConfiguration.CglibAutoProxyConfiguration.class"
@@ -926,6 +977,9 @@
         "pattern": "org/springframework/boot/autoconfigure/websocket/servlet/WebSocketServletAutoConfiguration.class"
       },
       {
+        "pattern": "org/springframework/boot/context/annotation/DeterminableImports.class"
+      },
+      {
         "pattern": "org/springframework/boot/context/event/ApplicationStartedEvent.class"
       },
       {
@@ -998,6 +1052,9 @@
         "pattern": "org/springframework/context/annotation/Conditional.class"
       },
       {
+        "pattern": "org/springframework/context/annotation/Configuration.class"
+      },
+      {
         "pattern": "org/springframework/context/annotation/ConfigurationCondition.class"
       },
       {
@@ -1034,6 +1091,9 @@
         "pattern": "org/springframework/core/annotation/Order.class"
       },
       {
+        "pattern": "org/springframework/data/jpa/repository/JpaRepository.class"
+      },
+      {
         "pattern": "org/springframework/data/jpa/repository/config/EnableJpaRepositories.class"
       },
       {
@@ -1058,7 +1118,19 @@
         "pattern": "org/springframework/data/jpa/util/JpaMetamodelCacheCleanup.class"
       },
       {
+        "pattern": "org/springframework/data/repository/CrudRepository.class"
+      },
+      {
+        "pattern": "org/springframework/data/repository/PagingAndSortingRepository.class"
+      },
+      {
+        "pattern": "org/springframework/data/repository/Repository.class"
+      },
+      {
         "pattern": "org/springframework/data/repository/config/RepositoryBeanDefinitionRegistrarSupport.class"
+      },
+      {
+        "pattern": "org/springframework/data/repository/query/QueryByExampleExecutor.class"
       },
       {
         "pattern": "org/springframework/data/web/config/EnableSpringDataWebSupport.QuerydslActivator.class"
@@ -1100,6 +1172,15 @@
         "pattern": "org/springframework/orm/jpa/support/PersistenceAnnotationBeanPostProcessor.class"
       },
       {
+        "pattern": "org/springframework/stereotype/Component.class"
+      },
+      {
+        "pattern": "org/springframework/stereotype/Controller.class"
+      },
+      {
+        "pattern": "org/springframework/stereotype/Repository.class"
+      },
+      {
         "pattern": "org/springframework/transaction/annotation/AbstractTransactionManagementConfiguration.class"
       },
       {
@@ -1116,6 +1197,9 @@
       },
       {
         "pattern": "org/springframework/transaction/aspectj/AspectJTransactionManagementConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/web/bind/annotation/RestController.class"
       },
       {
         "pattern": "org/springframework/web/context/ServletContextAware.class"

@@ -57,6 +57,41 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "com.example.springnative.SpringNativeTestApplication",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.example.springnative.api.TodoAPI",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "allDeclaredClasses": true
+  },
+  {
+    "name": "com.example.springnative.api.TodoItem",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.example.springnative.domain.Todo",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "allDeclaredClasses": true
+  },
+  {
+    "name": "com.example.springnative.repository.TodoRepository",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "allDeclaredClasses": true
+  },
+  {
     "name": "com.fasterxml.jackson.annotation.JsonAutoDetect$Visibility"
   },
   {
@@ -213,6 +248,7 @@
   },
   {
     "name": "java.io.Serializable",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allPublicMethods": true
   },
@@ -224,6 +260,7 @@
   },
   {
     "name": "java.lang.Comparable",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
     "allPublicMethods": true
   },
@@ -239,8 +276,10 @@
   },
   {
     "name": "java.lang.Object",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "java.lang.String[]"
@@ -382,7 +421,19 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "java.util.List",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "java.util.Properties"
+  },
+  {
+    "name": "java.util.UUID",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
   },
   {
     "name": "java.util.concurrent.Callable",
@@ -411,6 +462,12 @@
   {
     "name": "javax.persistence.Column",
     "allDeclaredMethods": true
+  },
+  {
+    "name": "javax.persistence.Entity",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "javax.persistence.EntityManager",
@@ -454,7 +511,9 @@
   },
   {
     "name": "javax.persistence.Table",
-    "allDeclaredMethods": true
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "javax.persistence.TableGenerator",
@@ -815,6 +874,30 @@
   {
     "name": "org.hibernate.dialect.PostgresPlusDialect",
     "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.engine.spi.Managed",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.engine.spi.ManagedEntity",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.engine.spi.PersistentAttributeInterceptable",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.engine.spi.SelfDirtinessTracker",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.hibernate.engine.spi.SessionImplementor"
@@ -1652,6 +1735,7 @@
   {
     "name": "org.springframework.boot.SpringBootConfiguration",
     "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
     "allPublicMethods": true
   },
   {
@@ -3090,6 +3174,8 @@
   },
   {
     "name": "org.springframework.boot.autoconfigure.AutoConfigurationPackage",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
     "allDeclaredMethods": true
   },
   {
@@ -3121,12 +3207,16 @@
   },
   {
     "name": "org.springframework.boot.autoconfigure.EnableAutoConfiguration",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
     "allPublicMethods": true
   },
   {
     "name": "org.springframework.boot.autoconfigure.SpringBootApplication",
+    "allDeclaredFields": true,
     "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
     "allPublicMethods": true
   },
   {
@@ -4594,6 +4684,11 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "org.springframework.boot.context.annotation.DeterminableImports",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
     "name": "org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor",
     "allDeclaredConstructors": true
   },
@@ -5203,7 +5298,10 @@
     "allDeclaredConstructors": true
   },
   {
-    "name": "org.springframework.data.jpa.repository.JpaRepository"
+    "name": "org.springframework.data.jpa.repository.JpaRepository",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.springframework.data.jpa.repository.config.EnableJpaRepositories",
@@ -5278,6 +5376,25 @@
     "name": "org.springframework.data.querydsl.binding.QuerydslBindingsFactory"
   },
   {
+    "name": "org.springframework.data.repository.CrudRepository",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.data.repository.PagingAndSortingRepository",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.data.repository.Repository",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
     "name": "org.springframework.data.repository.config.RepositoryBeanDefinitionRegistrarSupport",
     "allDeclaredConstructors": true,
     "allDeclaredMethods": true,
@@ -5317,7 +5434,8 @@
     "name": "org.springframework.data.repository.query.QueryByExampleExecutor",
     "allDeclaredFields": true,
     "allDeclaredConstructors": true,
-    "allDeclaredMethods": true
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.springframework.data.web.PageableHandlerMethodArgumentResolver",
@@ -5408,9 +5526,20 @@
     "allDeclaredConstructors": true
   },
   {
+    "name": "org.springframework.http.HttpEntity",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.http.MediaType",
     "allDeclaredConstructors": true,
     "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.http.ResponseEntity",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
   },
   {
     "name": "org.springframework.http.converter.FormHttpMessageConverter",
@@ -5522,7 +5651,9 @@
   },
   {
     "name": "org.springframework.stereotype.Component",
-    "allDeclaredMethods": true
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
   },
   {
     "name": "org.springframework.stereotype.Controller",

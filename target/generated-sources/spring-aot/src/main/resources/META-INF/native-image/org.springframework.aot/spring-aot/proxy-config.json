@@ -53,5 +53,48 @@
   [
     "org.springframework.boot.actuate.endpoint.annotation.EndpointExtension",
     "org.springframework.core.annotation.SynthesizedAnnotation"
+  ],
+  [
+    "org.springframework.web.bind.annotation.PathVariable",
+    "org.springframework.core.annotation.SynthesizedAnnotation"
+  ],
+  [
+    "org.springframework.stereotype.Component",
+    "org.springframework.core.annotation.SynthesizedAnnotation"
+  ],
+  [
+    "org.springframework.web.bind.annotation.ResponseStatus",
+    "org.springframework.core.annotation.SynthesizedAnnotation"
+  ],
+  [
+    "org.springframework.data.jpa.repository.JpaRepository",
+    "org.springframework.aop.SpringProxy",
+    "org.springframework.aop.framework.Advised",
+    "org.springframework.core.DecoratingProxy"
+  ],
+  [
+    "com.example.springnative.repository.TodoRepository",
+    "org.springframework.aop.SpringProxy",
+    "org.springframework.aop.framework.Advised",
+    "org.springframework.core.DecoratingProxy"
+  ],
+  [
+    "com.example.springnative.repository.TodoRepository",
+    "org.springframework.data.repository.Repository",
+    "org.springframework.transaction.interceptor.TransactionalProxy",
+    "org.springframework.aop.framework.Advised",
+    "org.springframework.core.DecoratingProxy"
+  ],
+  [
+    "com.example.springnative.repository.TodoRepository",
+    "org.springframework.data.repository.Repository",
+    "org.springframework.transaction.interceptor.TransactionalProxy",
+    "org.springframework.aop.framework.Advised",
+    "org.springframework.core.DecoratingProxy",
+    "java.io.Serializable"
+  ],
+  [
+    "org.springframework.boot.autoconfigure.EnableAutoConfiguration",
+    "org.springframework.core.annotation.SynthesizedAnnotation"
   ]
 ]

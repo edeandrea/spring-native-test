@@ -16,6 +16,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<spring-native.version>0.9.0</spring-native.version>
+		<graalvm.version>21.0.0</graalvm.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -63,6 +64,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<classifier>exec</classifier>
 					<image>
 						<builder>paketobuildpacks/builder:tiny</builder>
 						<env>
@@ -112,6 +114,32 @@
 			</plugin>
 		</plugins>
 	</build>
+	<profiles>
+		<profile>
+			<id>native-image</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.graalvm.nativeimage</groupId>
+						<artifactId>native-image-maven-plugin</artifactId>
+						<version>${graalvm.version}</version>
+						<configuration>
+							<!-- The native image build needs to know the entry point to your application -->
+							<mainClass>com.example.springnative.SpringNativeTestApplication</mainClass>
+						</configuration>
+						<executions>
+							<execution>
+								<goals>
+									<goal>native-image</goal>
+								</goals>
+								<phase>package</phase>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
 	<repositories>
 		<repository>
 			<id>spring-releases</id>
