@@ -1,5 +1,7 @@
 HELP.md
-target/
+!/target/
+/target/*
+!/target/generated-sources/spring-aot/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
