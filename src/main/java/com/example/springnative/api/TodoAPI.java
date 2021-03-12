@@ -6,7 +6,6 @@ import java.util.stream.Collectors;
 
 import javax.validation.Valid;
 
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.springnative.mapping.TodoMapper;
@@ -51,9 +49,18 @@ public class TodoAPI {
 		return getAll();
 	}
 
+	// This method did not work in native
+	// When running native there was a ClassNotFoundException on the HttpStatus class
+	// I had to re-write this method in a different fashion
+//	@DeleteMapping("/{id}")
+//	@ResponseStatus(HttpStatus.NO_CONTENT)
+//	public void deleteTodo(@PathVariable UUID id) {
+//		this.todoRepository.deleteById(id);
+//	}
+
 	@DeleteMapping("/{id}")
-	@ResponseStatus(HttpStatus.NO_CONTENT)
-	public void deleteTodo(@PathVariable UUID id) {
+	public ResponseEntity<Void> deleteTodo(@PathVariable UUID id) {
 		this.todoRepository.deleteById(id);
+		return ResponseEntity.noContent().build();
 	}
 }
